@@ -39,7 +39,7 @@
                         <td>{{ $category->id }}</td>
                         <td>{{ $category->name }}</td>
                         <td>
-                            <a href="" class="btn btn-warning">Actualizar</a>
+                            <a href="{{ route('categories.edit', $category->id) }}" class="btn btn-warning">Actualizar</a>
                             <form action="{{ route('categories.destroy', $category->id) }}" method="POST" style="display:inline;">
                                 @csrf
                                 @method('DELETE')

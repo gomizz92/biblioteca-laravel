@@ -55,4 +55,20 @@ class CategoryController extends Controller
         $category->delete();
         return redirect()->route('categories.index')->with('success', 'Categoría eliminada exitosamente.');
     }
+
+    public function edit(Category $category)
+    {
+        return view('categories.edit', compact('category'));
+    }
+
+
+    public function update(Request $request, Category $category)
+    {
+        $request->validate([
+            'name' => 'required|min:3|max:255',
+        ]);
+
+        $category->update($request->all());
+        return redirect()->route('categories.index')->with('success', 'Categoría actualizado exitosamente.');
+    }
 }

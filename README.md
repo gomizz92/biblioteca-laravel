@@ -1,3 +1,6 @@
+## Biblioteca CRUD Laravel
+ Los endpoints fueron probados con postman
+ 
 ## Comentarios personales
 
 Se utilizó mySQL para la base de datos debes crearla y nombrarla biblioteca con estos parametros 
