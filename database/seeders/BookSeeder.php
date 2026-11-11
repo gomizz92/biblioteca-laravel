@@ -26,5 +26,12 @@ class BookSeeder extends Seeder
             'published_year' => 2020,
             'category_id' => 2
         ]);
+
+        Book::create([
+            'title' => 'El Coronel no Tiene Quien le Escriba',
+            'author' => 'Gabriel García Márquez',
+            'published_year' => 1961,
+            'category_id' => 4
+        ]);
     }
 }

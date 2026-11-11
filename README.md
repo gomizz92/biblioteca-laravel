@@ -56,3 +56,16 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+
+## Comentarios personales
+
+Se utilizó mySQL para la base de datos debes crearla y nombrarla biblioteca con estos parametros 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=biblioteca
+DB_USERNAME=root
+DB_PASSWORD=12345678
+
+El proyecto se desarrollo en ubuntu por lo que colocarlo dentro de la carpeta /www bastará para ejcutarlo debes tener instalado composer y php 
+puedes ejecutar las migraciones y seeders para tener datos de prueba y la revisión sea mas comoda
