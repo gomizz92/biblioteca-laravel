@@ -1,3 +1,17 @@
+## Comentarios personales
+
+Se utilizó mySQL para la base de datos debes crearla y nombrarla biblioteca con estos parametros 
+DB_CONNECTION=mysql
+DB_HOST=127.0.0.1
+DB_PORT=3306
+DB_DATABASE=biblioteca
+DB_USERNAME=root
+DB_PASSWORD=12345678
+
+El proyecto se desarrollo en ubuntu por lo que colocarlo dentro de la carpeta /www bastará para ejcutarlo debes tener instalado composer y php 
+puedes ejecutar las migraciones y seeders para tener datos de prueba y la revisión sea mas comoda
+
+
 <p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
 
 <p align="center">
@@ -56,16 +70,3 @@ If you discover a security vulnerability within Laravel, please send an e-mail t
 ## License
 
 The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-
-## Comentarios personales
-
-Se utilizó mySQL para la base de datos debes crearla y nombrarla biblioteca con estos parametros 
-DB_CONNECTION=mysql
-DB_HOST=127.0.0.1
-DB_PORT=3306
-DB_DATABASE=biblioteca
-DB_USERNAME=root
-DB_PASSWORD=12345678
-
-El proyecto se desarrollo en ubuntu por lo que colocarlo dentro de la carpeta /www bastará para ejcutarlo debes tener instalado composer y php 
-puedes ejecutar las migraciones y seeders para tener datos de prueba y la revisión sea mas comoda
